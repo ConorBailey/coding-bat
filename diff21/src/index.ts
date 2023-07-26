@@ -8,7 +8,7 @@
 export function diff21(n: number): number {
   let result = 0;
   if (n > 21) {
-    result = Math.abs((21 - n) ** 2);
+    result = Math.abs((21 - n) * 2);
   } else {
     result = Math.abs(21 - n);
   }
